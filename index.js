@@ -8,3 +8,14 @@ function add(){
 function update(){
     document.querySelector('#countNum').value = coin;
 }
+
+function save(){
+    localStorage.setItem("coin",coin);
+}
+
+function load(){
+    localStorage.getItem("coin",coin);
+    coin = parseInt(coin);
+    
+    update();
+}

@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"> </script>
+    <li
+        class="item"
+        data-type="book"
+        data-lang="html"
+        data-index-number="123">
+    </li>
     <title>the Pet Shop Game</title>
 </head>
 <body>
@@ -21,5 +27,9 @@
     <div class="coin">
         <img src="coin.gif" onclick="add()" id="coin">
     </div>
+
+        <button id="save" onclick="save()">진행 상태 저장</button>
+        <button id="load" onclick="load()">저장 불러오기</button>
+
 </body>
 </html>
