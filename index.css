@@ -132,15 +132,48 @@ div{
 
 .clear{
     margin-left: 96.4em;
-    margin-top: 11.5em;
+    margin-top: 11.6em;
 }
 
 #clear{
     font-size: 18px;
     width: 17em;
     height: 3.7em;
-    color: white;
+    color: rgb(255, 230, 0);
     border-radius: 0.5em;
     border: none;
     background-color: rgba(255, 255, 255, 0)
+}
+
+#청소설명{
+    margin-top: -0.1em;
+    font-size: 14px;
+    color: white;
+}
+#필요코인01{
+    margin-top: 0.8em;
+    margin-left: 4em;
+    color: rgb(85, 160, 164);
+}
+
+.clickscore{
+    margin-left: 25em;
+    margin-top: 1.2em;
+    filter: drop-shadow(0px 10px 10px black);
+}
+
+#clickscoreimg{
+    width: 17em;
+    height: 4em;
+}
+
+.scoretext{
+    margin-left: 25.7em;
+    margin-top: 1.5em;
+}
+
+#scoretext{
+    color: gold;
+    text-shadow: 0px 0px 1px gold,
+                 0px 0px 2px gold;
 }
