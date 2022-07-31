@@ -32,33 +32,35 @@ div{
     outline: none;
     margin-top: 7em;
     margin-left: 3em;
+    filter: drop-shadow(0px 5px 10px black);
 }
 
 #coin{
-    width: 30em;
-    margin-top: 12em;
-    margin-left: -1.5em;
-    filter: drop-shadow(0px 10px 10px black);
+    width: 20em;
+    margin-top: 16em;
+    margin-left: 3.5em;
+    filter: drop-shadow(0px 0px 10px gold);
 }
 #coin:active{
-    filter: drop-shadow(0px 0px 10px gold);
+    filter: drop-shadow(0px 0px 10px rgb(157, 100, 7));
 }
 
 #save{
-    width: 10em;
+    width: 12em;
     height: 3em;
     margin-top: 40em;
-    margin-left: 6em;
+    margin-left: 4em;
     filter: drop-shadow(0px 10px 10px black);
     border: 3px solid rgb(87, 59, 31);
     border-radius: 10px;
 }
 #save:hover{
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 251, 124);
+    background-color: rgb(145, 145, 145);
 }
 
 #load{
-    width: 10em;
+    width: 12em;
     height: 3em;
     margin-left: 0.2em;
     filter: drop-shadow(0px 10px 10px black);
@@ -66,5 +68,79 @@ div{
     border-radius: 10px;
 }
 #load:hover{
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 251, 124);
+    background-color: rgb(145, 145, 145);
+}
+
+.Explanation{
+    width: 22em;
+    height: auto;
+    border-radius: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+    border: 1px solid black;
+    filter: drop-shadow(0px 0px 20px black);
+    margin-top: 1.5em;
+    margin-left: 2.5em;
+}
+
+#Explanation{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgba(122, 122, 122, 0.704);
+    width: 15em;
+    height: 1.5em;
+    margin-left: 7.5%;
+    border-radius: 1em;
+}
+
+#Explanation-title{
+    font-size: 18px;
+    margin-top: 0.2em;
+    color: coral;
+}
+
+#Explanation-contents{
+    margin-top: -1em;
+}
+
+/* -------------------------------------- */
+
+#petzone{
+    position: absolute;
+    width: 20em;
+    margin-left: 50em;
+    margin-top: 1em;
+    filter: drop-shadow(0px 10px 10px black);
+}
+
+/* -------------------------------------- */
+
+#upgrade{
+    width: 20em;
+    margin-left: 96em;
+    margin-top: 1em;
+    filter: drop-shadow(0px 10px 10px black);
+}
+
+#upgradebar{
+    width: 20em;
+    margin-top: 10em;
+}
+
+.clear{
+    margin-left: 96.4em;
+    margin-top: 11.5em;
+}
+
+#clear{
+    font-size: 18px;
+    width: 17em;
+    height: 3.7em;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0)
 }

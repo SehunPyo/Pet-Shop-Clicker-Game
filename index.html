@@ -6,30 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"> </script>
-    <li
-        class="item"
-        data-type="book"
-        data-lang="html"
-        data-index-number="123">
-    </li>
     <title>the Pet Shop Game</title>
 </head>
 <body>
     <div class="title">
         <img src="title.png" id="title">
     </div>
+
+    <div class="petzone">
+        <img src="petzone.png" id="petzone">
+    </div>
+
+    <div class="upgrade">
+        <img src="upgrade.png" id="upgrade">
+    </div>
+
+    <div id="upgrade">
+        <img src="upgradebar.png" id="upgradebar">
+    </div>
+
+    <div class="clear">
+        <button id="clear" onclick="clickup01()">펫샵 청소</button>
+    </div>
+
     <div class="bank">
         <img src="bank.gif" id="bank">
     </div>
+    
     <div class="countNum">
         <input id="countNum" class="counting" type="text" value="0" readonly>
     </div>
+
     <div class="coin">
-        <img src="coin.gif" onclick="add()" id="coin">
+        <img src="coin2.gif" onclick="add()" id="coin">
     </div>
 
-        <button id="save" onclick="save()">진행 상태 저장</button>
-        <button id="load" onclick="load()">저장 불러오기</button>
+    <button id="save" onclick="save()">🏧코인 은행에 저금🏧</button>
+    <button id="load" onclick="load()">🏧은행에서 코인 출금🏧</button>
 
+    <div class="Explanation">
+        <p id="Explanation">🐾PET SHOP 운영 가이드🐾</p>
+        <p id="Explanation-title">💰!코인을 수집하세요!💰</p>
+        <p id="Explanation-contents">코인을 클릭하고 모아보세요!<br>모은 코인으로 아이템을 구매하면<br>더욱 빠른 코인 수집이 가능합니다!</p>
+        <p id="Explanation-title">🏧!코인 은행에 저금!🏧</p>
+        <p id="Explanation-contents">저금을 하면 인터넷을 닫거나 새로 고침해도<br>은행에 안전하게 저금됩니다.</p>
+        <p id="Explanation-title">🏧!은행에서 코인 출금!🏧</p>
+        <p id="Explanation-contents">인터넷을 닫았다가 열어도<br>출금 버튼으로 코인을 꺼내올 수 있습니다.</p>
+    </div>
+    <!-- -------------------------------------------------------------------- -->
 </body>
 </html>
