@@ -1,5 +1,7 @@
 var coin = 0;
 var clickup = 0;
+var up = 20;
+var z = 0;
 
 function add(){
     coin = coin + 1 + clickup;
@@ -9,14 +11,14 @@ function add(){
 function update(){
     document.querySelector('#countNum').value = coin;
     document.querySelector('#scoretext').innerHTML = "클릭 당 획득 코인 : "+(1+clickup);
-    document.querySelector('#필요코인01').innerHTML = "업그레이드 비용 "+ (30+(0+clickup)) + " 코인";
+    document.querySelector('#필요코인01').innerHTML = "업그레이드 비용 "+ (30+(up*z*z*z)) + " 코인";
 }
 
 function clickup01(){
-    if(coin >= (30+(0+clickup))){
-        zoin01 = parseInt('#필요코인01');
-        coin = coin-(coin+clickup);
+    if(coin >= (30+(up*z*z*z))){
+        coin = coin-(30+(up*z*z*z));
         clickup = clickup + 1;
+        z++;
         update();
     } else {
         alert("코인이 부족해요!");
